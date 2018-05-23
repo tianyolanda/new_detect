@@ -1,12 +1,10 @@
 # new_detect
-A ros package for autonomous driving object detection.Use ZED camera to grasp real-time image and depth image, apply SSD-tensorflow for object detection.
-
-# new_detect
-zed_ros_tfssd_pkg
+a ROS,ZED SSD,Tensorflow package
 
 - A ros package for autonomous driving object detection.
 - This performance is better than zed_ros_kerasssd_pkg
 
+## Function
 It contains modules of:
 1. A tensorflow implemented SSD
 2. Subscribe image info from ZED Camera ROS node, obtained the PointCloud information of Object bounding box center. calculate distance of object. 
